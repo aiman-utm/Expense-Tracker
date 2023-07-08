@@ -1,0 +1,97 @@
+body{
+  background-color: rgb(63,63,63);
+}
+
+.input-container {
+  background-color: rgb(168,146,238);
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: rgb(64,2,93);
+  border-radius: 10px;
+  border-color: rgb(64,2,93);
+}
+
+.display-container {
+  background-color: rgb(31,31,31);
+  border-radius: 10px;
+}
+
+.form-group {
+  font-weight: bold;
+}
+
+.list-group .list-group-item {
+  background-color: rgb(31,31,31);
+  border-color: rgb(31,31,31);
+  color: white;
+}
+
+#yearlabel {
+  font-weight: bold;
+  color: white;
+}
+
+#filter-year {
+  font-weight: bold;
+}
+
+.expense-item {
+  border-radius: 10px;
+  background-color: rgb(75,75,75);
+}
+
+.expense-item .date {
+  border-radius: 10px;
+  background-color: rgb(42,42,42);
+  border: solid white 0.5px;
+  width: 10%;
+}
+
+.expense-item .date .day {
+  font-size: 1.25vw;
+  font-weight: bold;
+  color: white;
+}
+
+.expense-item .date .month {
+  font-size: 0.75vw;
+  font-weight: bold;
+  color: white;
+}
+
+.expense-item .date .year {
+  font-size: 0.75vw;
+  color: white;
+}
+
+.expense-item .title {
+  font-weight: bold;
+  font-size: 1.25vw;
+  color: white;
+  width: 75%;
+}
+
+.expense-item .amount {
+  font-weight: bold;
+  font-size: 1vw;
+  background-color: rgb(67,3,96);
+  border-radius: 10px;
+  margin-right: 10px;
+  border: solid white 0.5px;
+  color: white;
+  width: 15%;
+}
+
+.no-expenses {
+  color: white;
+  font-weight: bold;
+  font-size: 1.25vw;
+}
+
+#chart-container {
+  border-radius: 10px;
+  background-color: rgb(248,223,255);
+  height: 200px;
+}
